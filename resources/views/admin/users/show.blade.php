@@ -1,0 +1,1 @@
+@extends('layout') @section('content')<div class="card"><h1>{{$user->name}}</h1><p>{{$user->email}}</p><p>Rol: {{$user->role}}</p><p>Estado: {{$user->is_active?'Activo':'Inactivo'}}</p></div>@endsection

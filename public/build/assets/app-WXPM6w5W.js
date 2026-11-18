@@ -1,0 +1,1 @@
+document.addEventListener("change",n=>{const e=n.target;if(!(e instanceof HTMLInputElement)||!e.matches("[data-password-toggle]"))return;const t=document.querySelector(e.dataset.passwordToggle);t instanceof HTMLInputElement&&(t.type=e.checked?"text":"password")});
